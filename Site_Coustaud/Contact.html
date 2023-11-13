@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubrique-Contact</title>
+</head>
+
+<body class="Contact">
+
+    <header>
+        <nav>
+            
+            <ul class="Menu">
+            
+                <li><a href="index.html" class="Logo">Jacque Yves Coustaud</a></li>
+                <li><a href="Actualité.html" class="Lien">Actualité</a></li>
+                <li><a href="Réalisations.html" class="Lien">Réalisations</a></li>
+                <li><a href="Evenements.html" class="Lien">Événements</a></li>
+                <li><a href="Galerie.html" class="Lien">Galerie</a></li>
+                <li><a href="Contact.html" class="Lien">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main > 
+        
+         <section class="container">
+            
+            
+            <form class="form">
+                <h2>Contactez-nous</h2>
+            
+                <label for="civilite">Civilité :</label>
+                    <select id="civilite" name="civilite" required>
+                        <option value="monsieur">Monsieur</option>
+                        <option value="madame">Madame</option>
+                    </select>
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+                <label for="adresse">Adresse postale :</label>
+                <input id="adresse" name="adresse" placeholder="Votre adresse" required></textarea>
+
+                <label for="commentaire">Commentaire :</label>
+                <textarea id="commentaire" name="commentaire" placeholder="Votre commentaire" required></textarea>
+
+                <label for="confidentialite">
+                    <input type="checkbox" id="confidentialite" name="confidentialite" required>
+                    J'accepte les politiques de confidentialité de l'entreprise.
+                </label>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section> 
+
+    </main> 
+
+    <footer>
+        <nav>
+                
+            <ul class="Menu2">
+                
+                <li><a href="Actualité.html" class="Lien">Actualité</a></li>
+                <li><a href="Réalisations.html" class="Lien">Réalisations</a></li>
+                <li><a href="Evenements.html" class="Lien">Événements</a></li>
+                <li><a href="Galerie.html" class="Lien">Galerie</a></li>
+                <li><a href="Contact.html" class="Lien">Contact</a></li>
+                <li><a href="Mentions_Légales.html" class="Lien">Mentions légales</a></li>
+                <li><p class="Liens-Utiles">Lien(s)-Utile(s):</p></li>
+                <li><a href="https://fr.cousteau.org/le-commandant.php"  class="Lien" class="Sous-Liens-Utiles">https://fr.cousteau.org/le-commandant.php</a></li>
+            </ul>
+
+        </nav>
+    </footer> 
+</body> 
+</html>
